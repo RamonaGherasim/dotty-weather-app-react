@@ -10,15 +10,15 @@ export default function Weather() {
             <div className="col-6">
               <div className="row">
                 <div className="col-6 align-self-start celsius-fahrenheit">
-                  <a href="#" className="celsius-link active">
+                  <span href="#" className="celsius-link active">
                     {" "}
                     °C
-                  </a>
+                  </span>
                   <span id="CFline"> | </span>
-                  <a href="#" className="fahrenheit-link">
+                  <span href="#" className="fahrenheit-link">
                     {" "}
                     °F{" "}
-                  </a>
+                  </span>
                 </div>
 
                 <div className="col-6 align-self-end high-and-low">
