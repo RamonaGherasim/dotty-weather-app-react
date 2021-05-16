@@ -1,38 +1,188 @@
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding-top: 20px;
+  background-image: url(https://i.pinimg.com/originals/ce/c8/2d/cec82d5465d42ae136e627b67dbeb068.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Yantramanav", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Weather .weather-app-wrapper {
+  background: rgba(0, 2, 1, 0.9);
+  padding: 20px 0px 0px;
+  border-radius: 30px;
+  margin: 60px auto;
+  max-width: 76%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Weather h1 {
+  text-align: center;
+  font-size: 120px;
+  position: relative;
+  color: whitesmoke;
+  top: 50px;
+  left: 50px;
+  padding-top: 50px;
+}
+
+.Weather .form {
+  padding: 0px;
+  position: relative;
+  top: -32px;
+  left: -30px;
+}
+
+.Weather #search-box {
+  line-height: 2;
+  width: 250px;
+  border: 2px solid #a3a3a3;
+  border-radius: 5px;
+  padding: 1px;
+  margin-bottom: 20px;
+}
+
+.Weather #search-box:hover {
+  box-shadow: inset 0 0 10px grey;
+}
+
+.Weather .btn {
   color: white;
+  border: 2px solid #a3a3a3;
 }
 
-.App-link {
-  color: #61dafb;
+.Weather .celsius-link {
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 300;
+  position: relative;
+  left: -40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Weather #CFline {
+  position: relative;
+  right: 35px;
+  color: whitesmoke;
+}
+
+.Weather .fahrenheit-link {
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 300;
+  position: relative;
+  left: -30px;
+}
+
+.Weather .active {
+  cursor: default;
+  text-decoration: none;
+}
+
+.Weather .active:hover {
+  text-decoration: none;
+}
+
+.Weather .high-and-low {
+  text-align: right;
+  color: whitesmoke;
+  font-size: 18px;
+  position: relative;
+  right: -40px;
+  top: 5px;
+}
+
+.Weather .city {
+  text-align: center;
+  color: whitesmoke;
+  position: relative;
+  bottom: -20px;
+  left: 27px;
+}
+
+.Weather .description {
+  text-align: center;
+  color: whitesmoke;
+  position: relative;
+  bottom: -20px;
+  right: -22px;
+}
+
+.Weather .description:first-letter {
+  text-transform: capitalize;
+}
+
+.Weather .icon {
+  width: 70%;
+  position: relative;
+  top: 100px;
+  left: 30px;
+}
+
+.Weather .current-date {
+  color: whitesmoke;
+  position: relative;
+  top: 120px;
+  left: -30px;
+}
+
+.Weather .weather-details p {
+  color: whitesmoke;
+  display: inline;
+}
+
+.Weather .degree-real-feel {
+  color: whitesmoke;
+  margin-left: 250px;
+  line-height: 2.5;
+}
+
+.Weather .humidity-level {
+  color: whitesmoke;
+  margin-left: 240px;
+  line-height: 2.5;
+}
+
+.Weather .wind-speed {
+  color: whitesmoke;
+  margin-left: 250px;
+  line-height: 2.5;
+}
+
+.Weather .weather-forecast {
+  padding-bottom: 15px;
+}
+
+.Weather .weather-forecast p {
+  display: inline;
+}
+
+.Weather .temperature-first-day {
+  position: relative;
+  right: -5px;
+}
+
+.Weather .forecast-min-temp {
+  opacity: 0.5;
+}
+
+.Weather #footer {
+  color: whitesmoke;
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+
+.Weather #githubLink,
+.Weather #netlifyLink {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+#footer a:hover {
+  text-decoration: underline;
 }
