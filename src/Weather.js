@@ -216,7 +216,7 @@ export default function Weather() {
         This project was coded by <strong>Ramona Gherasim</strong> and is
         <a
           id="githubLink"
-          href="https://github.com/RamonaGherasim/SheCodes-Plus-Yin-and-Yang-Weather-App"
+          href="https://github.com/RamonaGherasim/dotty-weather-app-react"
           target="_blank"
         >
           <span> open-sourced on GitHub </span>
