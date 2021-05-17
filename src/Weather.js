@@ -215,6 +215,7 @@ export default function Weather() {
       <span id="footer">
         This project was coded by <strong>Ramona Gherasim</strong> and is
         <a
+        rel="noreferrer"
           id="githubLink"
           href="https://github.com/RamonaGherasim/dotty-weather-app-react"
           target="_blank"
@@ -223,6 +224,7 @@ export default function Weather() {
         </a>
         and hosted on
         <a
+        rel="noreferrer"
           id="netlifyLink"
           href="https://ecstatic-volhard-727bed.netlify.app"
           target="_blank"
