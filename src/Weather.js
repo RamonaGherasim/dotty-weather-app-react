@@ -226,7 +226,7 @@ export default function Weather() {
         <a
         rel="noreferrer"
           id="netlifyLink"
-          href="https://ecstatic-volhard-727bed.netlify.app"
+          href="https://amazing-liskov-21a77e.netlify.app/"
           target="_blank"
         >
           <span> Netlify </span>
